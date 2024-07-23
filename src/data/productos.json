@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta",
+    "description": "Camiseta de algodón, color blanco",
+    "price": 1500,
+    "img": "no tiene",
+    "code": "clth101",
+    "stock": 50,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 2,
+    "title": "Pantalón Jeans",
+    "description": "Pantalón jeans, corte recto, color azul",
+    "price": 4500,
+    "img": "no tiene",
+    "code": "clth102",
+    "stock": 30,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "Camisa",
+    "description": "Camisa formal, manga larga, color celeste",
+    "price": 3200,
+    "img": "no tiene",
+    "code": "clth103",
+    "stock": 40,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "Chaqueta",
+    "description": "Chaqueta de cuero, color negro",
+    "price": 12000,
+    "img": "no tiene",
+    "code": "clth104",
+    "stock": 20,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Vestido",
+    "description": "Vestido de verano, estampado floral",
+    "price": 3500,
+    "img": "no tiene",
+    "code": "clth105",
+    "stock": 25,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 6,
+    "title": "Sweater",
+    "description": "Sweater de lana, color gris",
+    "price": 2800,
+    "img": "no tiene",
+    "code": "clth106",
+    "stock": 35,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 7,
+    "title": "Falda",
+    "description": "Falda de mezclilla, color azul",
+    "price": 2200,
+    "img": "no tiene",
+    "code": "clth107",
+    "stock": 45,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 8,
+    "title": "Abrigo",
+    "description": "Abrigo largo, color marrón",
+    "price": 8500,
+    "img": "no tiene",
+    "code": "clth108",
+    "stock": 15,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 9,
+    "title": "Gorra",
+    "description": "Gorra deportiva, color rojo",
+    "price": 1000,
+    "img": "no tiene",
+    "code": "clth109",
+    "stock": 60,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "id": 10,
+    "title": "Bufanda",
+    "description": "Bufanda de lana, color verde",
+    "price": 1300,
+    "img": "no tiene",
+    "code": "clth110",
+    "stock": 55,
+    "category": "Ropa",
+    "status": true,
+    "thumbnails": []
+  }
+]
