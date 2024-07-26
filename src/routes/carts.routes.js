@@ -6,7 +6,7 @@ const cartManager = new CartManager("./src/data/carritos.json");
 
 router.get("/", async (req, res) => {
     try {
-        const carritos = await cartManager.saveCarts();
+        const carritos = await cartManager.getCarts();
         res.json(carritos);
         
     } catch (error) {

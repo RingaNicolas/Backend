@@ -10,6 +10,16 @@ class CartManager {
         this.addCarts();
     }
 
+    async getCarts() {
+        try {
+            const cart = await fs.promises.readFile(this.path, "utf-8");
+            return JSON.parse(cart);
+        } catch (error) {
+            console.log("Error al obtener el archivo");
+        }
+        
+    }    
+
     async addCarts() {
         try {
             const data = await fs.promises.readFile(this.path, "utf-8");
