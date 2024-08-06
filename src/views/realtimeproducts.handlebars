@@ -1,0 +1,39 @@
+<h1>Productos en tiempo real</h1>
+
+<div id="contenedor-productos" class="contenedor-productos"></div>
+
+<form action="" class="formulario-productos">
+    <ul class="ul-form">
+        <li class="form-item">
+            <label for="title">Titulo:</label>
+            <input type="text" id="title">
+        </li>
+        <li class="form-item">
+            <label for="description">Descripción:</label>
+            <input type="text" id="description">
+        </li>
+        <li class="form-item">
+            <label for="price">Precio:</label>
+            <input type="number" id="price">
+        </li>
+        <li class="form-item">
+            <label for="code">Código:</label>
+            <input type="text" id="code">
+        </li>
+        <li class="form-item">
+            <label for="stock">Stock:</label>
+            <input type="number" id="stock">
+        </li>
+        <li class="form-item">
+            <label for="category">Categoría:</label>
+            <input type="text" id="category">
+        </li>
+        <li class="form-item">
+            <button class="btn-form" id="btn-prod">Subir producto</button>
+        </li>
+
+    </ul>
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="js/main.js"></script>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 4rem;
+    background-color: #CCCCCC;
+}
+
+.body {
+    margin: 0 2rem 0 2rem;
+}
+
+.title {
+    margin: 1rem 0;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.card {
+    padding: .5rem;
+    border: solid, 1px, black;
+    border-radius: .5rem;
+}
+
+.img-card {
+    max-width: 100%;
+    border-radius: .5rem;
+}
+
+.card-title, p {
+    font-size: 0.5rem;
+    margin: .25rem 0 ;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.formulario-productos {
+    border: 1px solid black;  
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.ul-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    text-decoration: none;
+    list-style: none;
+    margin: .5rem .5rem;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-size: .75rem;
+}
+
+
+
+footer {
+    height: 6rem;
+    background-color: #CCCCCC;
+}

@@ -8,7 +8,7 @@ class ProductManager {
     this.path = path;
   }
 
-  async addProduct( {title, description, price, img, code, stock, category, thumbnails} ) {
+  async addProduct( {title, description, price, code, stock, category, thumbnails} ) {
     try {
       const arrayProductos = await this.leerArchivo();
 
@@ -26,7 +26,7 @@ class ProductManager {
         title,
         description,
         price,
-        img,
+        img: "https://placehold.co/400",
         code,
         stock,
         category,
