@@ -4,9 +4,10 @@ import cartsRouter from "./routes/carts.router.js"
 import viewRouter from "./routes/views.router.js"
 import exphbs from "express-handlebars";
 import { Server } from "socket.io";
-import ProductManager from "./controllers/product-manager.js";
+import ProductManager from "./dao/db/product-manager-db.js";
+import "./database.js";
 
-const productManager = new ProductManager("./src/data/productos.json")
+const productManager = new ProductManager();
 
 const app = express();
 const PUERTO = 8080;
@@ -23,11 +24,6 @@ app.use(express.static("./src/public"));
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
 app.use("/", viewRouter);
-
-
-
-
-
 
 
 const httpServer = app.listen(PUERTO, () => {
